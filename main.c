@@ -146,10 +146,6 @@ int CALLBACK WinMain(HINSTANCE Instance, HINSTANCE PrevInstance, LPSTR CmdLine, 
 	//I cba to adjust this to monitor refresh rate. 120 fps is good enough.
 	float TargetMS = 1000.0f / 120.0f;
 
-	//How many milliseconds the animation is offset by.
-	int Offset = 0;
-	bool32 ShiftDown = false;
-
 	bool32 Running = true;
 
 	LARGE_INTEGER StartCounter;
